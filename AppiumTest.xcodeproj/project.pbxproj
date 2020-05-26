@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CB8DC8F247D647000A3C21D /* Porta_Guest_Adhoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = Porta_Guest_Adhoc.mobileprovision; path = ../../Porta_Guest_Adhoc.mobileprovision; sourceTree = "<group>"; };
 		AB1C302521272F7F000DAC17 /* AppiumTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiumTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1C302821272F7F000DAC17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1C302A21272F7F000DAC17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +36,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB8DC8E247D647000A3C21D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB8DC8F247D647000A3C21D /* Porta_Guest_Adhoc.mobileprovision */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB1C301C21272F7F000DAC17 = {
 			isa = PBXGroup;
 			children = (
 				AB1C302721272F7F000DAC17 /* AppiumTest */,
 				AB1C302621272F7F000DAC17 /* Products */,
+				2CB8DC8E247D647000A3C21D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Osmosys Software Solutions Private Limited (G43P2FFDRZ)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = G43P2FFDRZ;
 				INFOPLIST_FILE = AppiumTest/Info.plist;
@@ -300,7 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Osmosys Software Solutions Private Limited (G43P2FFDRZ)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = G43P2FFDRZ;
 				INFOPLIST_FILE = AppiumTest/Info.plist;
